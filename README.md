@@ -192,48 +192,6 @@ curl http://localhost:8081
 
 ---
 
-# 📸 Screenshots
-
-## Dev Environment Running
-
-*Add screenshot here*
-
-```
-kubectl get all -n dev
-```
-
----
-
-## Staging Environment Running
-
-*Add screenshot here*
-
-```
-kubectl get all -n staging
-```
-
----
-
-## Service Communication Test
-
-*Add screenshot here*
-
-```
-kubectl exec -n dev frontend-pod -- wget -qO- http://backend-service:8080/info
-```
-
----
-
-## Port Forward Test
-
-*Add screenshot here*
-
-```
-kubectl port-forward -n dev pod/frontend-pod 8081:80
-```
-
----
-
 # 🎯 What This Lab Demonstrates
 
 This lab demonstrates several important Kubernetes concepts:
@@ -278,10 +236,6 @@ kubectl get pods,svc -n dev
 
 Take a screenshot of the output and place it in:
 
-```
-screenshots/pods,svc -n dev.png
-```
-
 ![Dev Environment](Screenshots/pod-dev.png)
 
 ---
@@ -296,11 +250,7 @@ kubectl get pods,svc -n staging
 
 Take a screenshot of the output and place it in:
 
-```
-screenshots/pods,svc -n staging.png
-```
-
-![Dev Environment](screenshots/pods,svc -n staging.png)
+![Dev Environment](Screenshots/pods-svc-n_staging.png)
 
 ---
 
@@ -316,11 +266,7 @@ Take a screenshot showing the port-forward command running.
 
 Save it as:
 
-```
-screenshots/portForwarding -n dev.png
-```
-
-![Dev Environment](screenshots/portForwarding -n dev.png)
+![Dev Environment](screenshots/portForwarding-n_dev.png)
 
 ---
 
@@ -336,10 +282,6 @@ Take a screenshot showing the application running in the browser.
 
 Save it as:
 
-```
-screenshots/Browser.png
-```
-
 ![Dev Environment](screenshots/Browser.png)
 
 ---
@@ -351,9 +293,5 @@ Repeat the same process for the **staging environment**.
 Take a screenshot of the browser showing the application response.
 
 Save it as:
-
-```
-screenshots/Browser...staging.png
-```
 
 ![Dev Environment](screenshots/Browser...staging.png)
