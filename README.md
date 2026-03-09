@@ -266,7 +266,7 @@ Take a screenshot showing the port-forward command running.
 
 Save it as:
 
-![Dev Environment](screenshots/portForwarding-n_dev.png)
+![Dev Environment](Screenshots/portForwarding-n_dev.png)
 
 ---
 
@@ -282,7 +282,7 @@ Take a screenshot showing the application running in the browser.
 
 Save it as:
 
-![Dev Environment](screenshots/Browser.png)
+![Dev Environment](Screenshots/Browser.png)
 
 ---
 
@@ -294,4 +294,4 @@ Take a screenshot of the browser showing the application response.
 
 Save it as:
 
-![Dev Environment](screenshots/Browser...staging.png)
+![Dev Environment](Screenshots/Browser...staging.png)
