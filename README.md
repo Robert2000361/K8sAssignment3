@@ -282,7 +282,7 @@ Take a screenshot of the output and place it in:
 screenshots/pods,svc -n dev.png
 ```
 
-![Dev Environment](screenshots/pod-dev.png)
+![Dev Environment](Screenshots/pod-dev.png)
 
 ---
 
